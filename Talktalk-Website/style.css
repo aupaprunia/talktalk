@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+}
+h1,h4{
+    text-align: center;
+}
+#remote-container video{
+    height: auto;
+    position: relative !important;
+}
+#me{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+#me video{
+    position: relative !important;
+}
+#remote-container{
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin-left: 330px;
+}
+
+#btn-mute{
+    margin-left : 600px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

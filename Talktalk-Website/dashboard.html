@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <title>TalkTalk</title>
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link rel="stylesheet" href="dashboard.css">
+    </head>
+	<body >
+        <div class="sidebar">
+          <div class="sidebar-brand">
+            <h2><span><img src="talk.jpg" height="50px" width="50px" alt="" style="margin-top: 10px;"></span><a href="dashboard.html" class="talktalk">TalkTalk</a></h2>
+          </div>
+          <div class="sidebar-menu">
+            <ul>
+              <li>
+                <a href="listner.html" class= "active"><span><img src="ic_listener.svg" height="30px" width="30px"> </span>
+                  <span><b>Listener</b></span></a>
+                </li>
+                <li>
+                  <a href="speaker.html" class="active" ><span> <img src="ic_speaker.svg" height="30px" width="30px" alt=""></span>
+                    <span><b>Speaker</b></span></a>
+
+                  </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-content">
+          <header>
+
+            <h3 class = "welcome">
+              <label for="">
+                <span class= "icon to be added"></span>
+              </label>
+              Welcome, <span id = "name_user"><h3></h3></span>
+            </h3>
+
+            <div class="user-wrapper">
+                <img src="user_image1.gif" width="50px" height="50px" alt="">
+                <div>
+                    <p id="token_count"><span><p></p></span></p>
+                </div>
+            </div>
+
+          </header>
+
+          <main> 
+            <h1>Heyy! We're thrilled to have you here with us</h1><br>
+            <h2>Let us take you through the process of how TalkTalk works.</h2>
+            <h3>We have two modes from which you can choose</h3><br>
+            <p><span><h3>Listener</h3></span>In this mode, you opt to listen to another user. This option earns you a token.
+            </p><br>
+            <p><span><h3>Speaker</h3></span>In this mode, you opt to speak with another user. You need a token to use this option that means you earn tokens when you listen whereas, you spend them when you speak.
+            </p>
+          </main>
+        </div>
+        <script src="login.js"></script>
+        <script src="dashboard.js"></script>
+	</body>
+</html>
